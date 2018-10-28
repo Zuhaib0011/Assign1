@@ -1,7 +1,7 @@
 #include <stdio.h>
 void even_series(int a,b,c)
 {
-if (b!=a+2&&c!=a+4)
+if (b!==a+2&&c!==a+4)
 {
     printf("It is not");
     }
