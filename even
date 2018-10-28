@@ -1,0 +1,21 @@
+#include <stdio.h>
+void even_series(int a,b,c)
+{
+if (b!=a+2&&c!=a+4)
+{
+    printf("It is not");
+    }
+
+    else if(a%2==0&&b%2==0&&c%2==0)
+    {
+        printf("It is");
+    }
+}
+int main()
+{
+    int n1,n2,n3;
+    printf("Enter 3 numbers\n");
+    scanf("%d%d%d",&n1,&n2,&n3);
+    even_series(n1,n2,n3);
+    return 0;
+}
