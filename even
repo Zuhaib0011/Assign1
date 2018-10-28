@@ -1,5 +1,5 @@
 #include <stdio.h>
-void even_series(int a,b,c)
+void even_series(int a,int b,int c)
 {
 if (b!==a+2&&c!==a+4)
 {
