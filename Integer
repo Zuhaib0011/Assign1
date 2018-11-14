@@ -1,12 +1,14 @@
 #include <stdio.h>
 void integer_series(int a, int b, int c)
 {
-     i, n;
+   label1:
+     int i, n;
     for(i=1; i<=n; i++)
     {
         printf("%d\n", i);
     }
 
+  if (a&&b&&c = label1)
     return 0;
 }
     }
