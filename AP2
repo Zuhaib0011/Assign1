@@ -1,0 +1,23 @@
+#include <stdio.h>
+void ap2_series(int a,int b,int c)
+{
+
+      if(c-b&&b-a==2)
+{
+    printf("It is \n");
+    }
+
+    else 
+    {    
+    
+        printf("It is not\n");}
+    
+}
+int main()
+{
+    int n1,n2,n3;
+    printf("Enter 3 numbers\n");
+    scanf("%d%d%d",&n1,&n2,&n3);
+    ap2_series(n1,n2,n3);
+    return 0;
+}
