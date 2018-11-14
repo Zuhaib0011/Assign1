@@ -1,0 +1,21 @@
+#include <stdio.h>
+void integer_series(int a, int b, int c)
+{
+     i, n;
+    for(i=1; i<=n; i++)
+    {
+        printf("%d\n", i);
+    }
+
+    return 0;
+}
+    }
+
+    int main()
+{
+    int n1,n2,n3;
+    printf("Enter 3 numbers\n");
+    scanf("%d%d%d",&n1,&n2,n3);
+    integer_series(n1.n2,n3)
+    return 0;
+    }
