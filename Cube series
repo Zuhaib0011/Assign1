@@ -1,0 +1,23 @@
+#include <stdio.h>
+void  cube_series(int a, int b, int c)
+{
+    float =0.33;
+    int d=pow(a,g);
+    int e =pow(b,g);
+    int f=pow(c,g)
+    if (f-e==e-d)
+    {
+    printf("It is not\n");
+}
+else
+{
+    print("It is\n");
+}
+int main()
+{
+    int n1,n2,n3;
+    printf("Enter 3 numbers\n");
+    scanf("%d%d%d",&n1,&n2,n3);
+    cube_series(n1,n2,n3);
+    return 0
+}
